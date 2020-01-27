@@ -23,6 +23,6 @@ end
 #new_array = []
 new_array = array.insert(-2, "and")
 new_array.join(", ")
-binding.pry
+#binding.pry
 return new_array
 end
