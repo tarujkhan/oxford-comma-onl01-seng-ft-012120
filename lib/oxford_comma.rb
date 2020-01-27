@@ -11,11 +11,11 @@ def oxford_comma(array)
 if array.length = 1 
   return array 
 elsif 
-  if array.length = 2 
+  array.length = 2 
     array.insert("and")
     return array
 else
-  if array.length = 3
+  array.length = 3
     array.insert(", ")
     return array
   end
