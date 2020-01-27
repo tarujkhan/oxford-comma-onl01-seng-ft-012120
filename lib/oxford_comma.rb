@@ -14,8 +14,8 @@ elsif array.length == 2
     array.insert("and")
 #else array.length > 3
  #   array.insert(", ")
-  end
-  return array
+  #end
+  #return array
 end
 
 
