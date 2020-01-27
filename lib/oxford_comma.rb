@@ -17,6 +17,7 @@ elsif
 else
   if array.length = 3
     array.insert(", ")
+    return array
   end
 end
 
