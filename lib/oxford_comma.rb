@@ -17,7 +17,7 @@ elsif
 else
   if array.length = 3
     array.
-  
+  end
 end
 
 
