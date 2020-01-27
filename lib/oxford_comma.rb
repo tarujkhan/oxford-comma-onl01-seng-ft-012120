@@ -8,9 +8,9 @@ def oxford_comma(array)
 # However if array is two elements- add an and, convert to string, return string
 # if array is 3 elements or more 
 
-if array.length = 1 
+if array.length == 1 
   return array 
-elsif array.length = 2 
+elsif array.length == 2 
     array.insert("and")
 else array.length > 3
     array.insert(", ")
