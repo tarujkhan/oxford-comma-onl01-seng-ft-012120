@@ -18,8 +18,8 @@ end
 
 
 #new_array = []
-array.insert(-2, "and")
+array[-1].insert(0,"and ")
 #new_array.join(", ")
-binding.pry
+#binding.pry
 return new_array.join
 end
