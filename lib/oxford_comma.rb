@@ -21,5 +21,5 @@ end
 array[-1].insert(0,"and ")
 #new_array.join(", ")
 #binding.pry
-return array.join
+return array.join(", ")
 end
