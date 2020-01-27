@@ -12,7 +12,7 @@ if array.length = 1
   return array 
 elsif array.length = 2 
     array.insert("and")
-else array.length = 3
+else array.length > 3
     array.insert(", ")
   end
   return array
