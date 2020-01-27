@@ -8,6 +8,13 @@ def oxford_comma(array)
 # However if array is two elements- add an and, convert to string, return string
 # if array is 3 elements or more 
 
+if array is length of one 
+  
+elsif 
+  
+else
+  
+end
 
 
 
