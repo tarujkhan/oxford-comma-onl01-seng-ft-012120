@@ -9,7 +9,7 @@ def oxford_comma(array)
 # if array is 3 elements or more 
 
 if array.length == 1 
-  return array 
+  array.insert(", ")
 elsif array.length == 2 
     array.insert("and")
 #else array.length > 3
