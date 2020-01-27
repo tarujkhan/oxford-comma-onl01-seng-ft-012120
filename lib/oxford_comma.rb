@@ -12,10 +12,7 @@ if array.length == 1
   array.join(", ")
 elsif array.length == 2 
     array.join(" and ")
-#else array.length > 3
- #   array.insert(", ")
-  #end
-  #return array
+
 end
 
 
@@ -24,5 +21,5 @@ end
 new_array = array.insert(-2, "and")
 new_array.join(", ")
 #binding.pry
-return new_array
+return new_array.join
 end
